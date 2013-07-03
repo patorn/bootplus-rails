@@ -2,6 +2,7 @@ require "bootplus/rails/version"
 
 module Bootplus
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
