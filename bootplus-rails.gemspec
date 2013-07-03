@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Bootplus::Rails::VERSION
   spec.authors       = ["Patorn Utenpattanun"]
   spec.email         = ["patorn.u@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Bootplus bundled for Rails Asset Pipeline}
+  spec.summary       = %q{Bootplus bundled for Rails Asset Pipeline}
   spec.homepage      = ""
   spec.license       = "MIT"
 
