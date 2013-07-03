@@ -1,6 +1,6 @@
 # Bootplus::Rails
 
-TODO: Write a gem description
+Bootplus for Rails Asset Pipeline extracted from [bootplus](https://github.com/aozora/bootplus)
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add bootplus.less to your `application.css`
+
+    *= require bootplus/bootplus
+
+Add bootstrap.js to your `application.js`
+    
+    //= require bootstrap
 
 ## Contributing
 
@@ -27,3 +33,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## ROADMAP
+
+1. Add generator
