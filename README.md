@@ -37,4 +37,3 @@ Add bootstrap.js to your `application.js`
 ## ROADMAP
 
 1. Add generator
-2. Add icons
