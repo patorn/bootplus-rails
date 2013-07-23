@@ -7,10 +7,12 @@ Use this gem [less-rails-fontawesome](https://github.com/wbzyl/less-rails-fontaw
 
 Add this line to your application's Gemfile:
 
-    gem 'therubyracer'
-    gem 'less-rails'
-    gem 'less-rails-fontawesome'
-    gem 'bootplus-rails'
+```ruby
+gem 'therubyracer'
+gem 'less-rails'
+gem 'less-rails-fontawesome'
+gem 'bootplus-rails'
+```
 
 And then execute:
 
@@ -24,22 +26,27 @@ Or install it yourself as:
 
 Create bootplus_overrides.less with the following codes
 
-    @import "bootplus/bootplus";
-    @import "bootplus/responsive";
-    @import 'font-awesome/font-awesome';
-    @import 'font-awesome/font-awesome-ie7';
+```css
+@import 'bootplus/bootplus';
+@import 'bootplus/responsive';
+@import 'font-awesome/font-awesome';
+@import 'font-awesome/font-awesome-ie7';
 
-    // Set the correct sprite paths
-    @iconSpritePath: "glyphicons-halflings.png";
-    @iconWhiteSpritePath: "glyphicons-halflings-white.png";
-
+// Set the correct sprite paths
+@iconSpritePath: "glyphicons-halflings.png";
+@iconWhiteSpritePath: "glyphicons-halflings-white.png";
+```
 Add bootplus_overrides.less to your `application.css`
 
-    *= require bootplus_overrides
+```css
+*= require bootplus_overrides
+```
 
 Add bootstrap.js to your `application.js`
     
-    //= require bootplus/bootstrap
+```js
+//= require bootplus/bootstrap
+```
 
 ## Contributing
 
