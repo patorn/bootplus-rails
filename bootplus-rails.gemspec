@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["patorn.u@gmail.com"]
   spec.description   = %q{Bootplus bundled for Rails Asset Pipeline}
   spec.summary       = %q{Bootplus bundled for Rails Asset Pipeline}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/patorn/bootplus-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
