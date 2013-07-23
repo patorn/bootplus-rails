@@ -1,0 +1,13 @@
+//= require bootplus/bootstrap-transition
+//= require bootplus/bootstrap-alert
+//= require bootplus/bootstrap-modal
+//= require bootplus/bootstrap-dropdown
+//= require bootplus/bootstrap-scrollspy
+//= require bootplus/bootstrap-tab
+//= require bootplus/bootstrap-tooltip
+//= require bootplus/bootstrap-popover
+//= require bootplus/bootstrap-button
+//= require bootplus/bootstrap-collapse
+//= require bootplus/bootstrap-carousel
+//= require bootplus/bootstrap-typeahead
+//= require bootplus/bootstrap-affix
