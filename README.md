@@ -1,11 +1,15 @@
 # Bootplus::Rails
 
 Bootplus for Rails Asset Pipeline extracted from [bootplus](https://github.com/aozora/bootplus)
+Use this gem [less-rails-fontawesome](https://github.com/wbzyl/less-rails-fontawesome) for font awesome
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
+    gem 'therubyracer'
+    gem 'less-rails'
+    gem 'less-rails-fontawesome'
     gem 'bootplus-rails'
 
 And then execute:
@@ -20,9 +24,10 @@ Or install it yourself as:
 
 Create bootplus_overrides.less with the following codes
 
-    @import "bootstrap";
     @import "bootplus/bootplus";
     @import "bootplus/responsive";
+    @import 'font-awesome/font-awesome';
+    @import 'font-awesome/font-awesome-ie7';
 
     // Set the correct sprite paths
     @iconSpritePath: "glyphicons-halflings.png";
@@ -35,9 +40,6 @@ Add bootplus_overrides.less to your `application.css`
 Add bootstrap.js to your `application.js`
     
     //= require bootstrap
-    
-IF you need new version of fontawesome, use this gem
-    [less-rails-fontawesome](https://github.com/wbzyl/less-rails-fontawesome)
 
 ## Contributing
 
