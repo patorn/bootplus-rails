@@ -39,7 +39,7 @@ Add bootplus_overrides.less to your `application.css`
 
 Add bootstrap.js to your `application.js`
     
-    //= require bootstrap
+    //= require bootplus/bootstrap
 
 ## Contributing
 
